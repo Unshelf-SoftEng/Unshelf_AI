@@ -7,3 +7,6 @@ class ProductDataSerializer(serializers.Serializer):
     description = serializers.CharField()
     price = serializers.DecimalField(max_digits=10, decimal_places=2)
     image_url = serializers.URLField()
+
+class ProductListSerializer(serializers.Serializer):
+    products = ProductDataSerializer(many=True)
