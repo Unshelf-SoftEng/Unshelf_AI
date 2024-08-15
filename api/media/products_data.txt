@@ -1,72 +1,38 @@
 [
     {
-        "id": 1,
-        "name": "Organic Avocado",
-        "description": "Fresh organic avocado from local farms.",
-        "price": "1.50",
-        "image_url": "http://example.com/images/avocado.jpg"
+        "productId": "T141TjxB0FcYrDGfRwco",
+        "name": "Pear",
+        "description": "Fresh Pears",
+        "price": 12,
+        "stock": 5,
+        "expiryDate": "2024-08-15T00:00:00.000",
+        "discount": 10
     },
     {
-        "id": 2,
-        "name": "Almond Butter",
-        "description": "Creamy almond butter, perfect for spreads and recipes.",
-        "price": "4.99",
-        "image_url": "http://example.com/images/almond_butter.jpg"
+        "productId": "bpGvuTHq9RQ11ievURhI",
+        "name": "Watermelon",
+        "description": "some watermelon",
+        "price": 128,
+        "stock": 10,
+        "expiryDate": "2024-08-12T00:00:00.000",
+        "discount": 20
     },
     {
-        "id": 3,
-        "name": "Whole Wheat Bread",
-        "description": "Healthy whole wheat bread baked daily.",
-        "price": "2.79",
-        "image_url": "http://example.com/images/whole_wheat_bread.jpg"
+        "productId": "hfLOytmHTRJRJwiHBg5t",
+        "name": "Orange",
+        "description": "Fresh Orange",
+        "price": 12,
+        "stock": 10,
+        "expiryDate": "2024-08-16T00:00:00.983",
+        "discount": 10
     },
     {
-        "id": 4,
-        "name": "Greek Yogurt",
-        "description": "Rich and creamy Greek yogurt, high in protein.",
-        "price": "1.99",
-        "image_url": "http://example.com/images/greek_yogurt.jpg"
-    },
-    {
-        "id": 5,
-        "name": "Fresh Spinach",
-        "description": "Organic fresh spinach, perfect for salads and cooking.",
-        "price": "3.49",
-        "image_url": "http://example.com/images/fresh_spinach.jpg"
-    },
-    {
-        "id": 6,
-        "name": "Cage-Free Eggs",
-        "description": "Dozen cage-free eggs from free-range hens.",
-        "price": "2.99",
-        "image_url": "http://example.com/images/cage_free_eggs.jpg"
-    },
-    {
-        "id": 7,
-        "name": "Granola Bars",
-        "description": "Healthy granola bars with mixed nuts and dried fruit.",
-        "price": "5.49",
-        "image_url": "http://example.com/images/granola_bars.jpg"
-    },
-    {
-        "id": 8,
-        "name": "Almond Milk",
-        "description": "Unsweetened almond milk, a great dairy alternative.",
-        "price": "3.29",
-        "image_url": "http://example.com/images/almond_milk.jpg"
-    },
-    {
-        "id": 9,
-        "name": "Brown Rice",
-        "description": "Whole grain brown rice, ideal for a healthy diet.",
-        "price": "2.89",
-        "image_url": "http://example.com/images/brown_rice.jpg"
-    },
-    {
-        "id": 10,
-        "name": "Mixed Berries",
-        "description": "Frozen mixed berries, perfect for smoothies and desserts.",
-        "price": "4.29",
-        "image_url": "http://example.com/images/mixed_berries.jpg"
+        "productId": "oJwTibRIuXui80gwffv6",
+        "name": "Fuji Apples",
+        "description": "Fuji",
+        "price": 16,
+        "stock": 5,
+        "expiryDate": "2024-08-11T00:00:00.000",
+        "discount": 10
     }
 ]
