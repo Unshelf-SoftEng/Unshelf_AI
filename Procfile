@@ -1,1 +1,1 @@
-web: gunicorn unshelf_ai.wsgi --log-file -
+web: gunicorn 'unshelf_ai.wsgi'
