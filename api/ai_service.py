@@ -39,8 +39,6 @@ def format_bundles(text):
 
 class ProductBundleGenerator:
     def __init__(self):
-        load_dotenv()
-
         openai.api_key = os.getenv('OPENAI_API_KEY')
         llm = OpenAI(model="gpt-4-1106-preview")
         self.service_context = ServiceContext.from_defaults(llm=llm)

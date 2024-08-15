@@ -23,7 +23,7 @@
         "description": "Fresh Orange",
         "price": 12,
         "stock": 10,
-        "expiryDate": "2024-08-16T00:00:00.983",
+        "expiryDate": "2024-08-31T00:00:00.770",
         "discount": 10
     },
     {
@@ -32,7 +32,7 @@
         "description": "Fuji",
         "price": 16,
         "stock": 5,
-        "expiryDate": "2024-08-11T00:00:00.000",
+        "expiryDate": "2024-08-24T00:00:00.119",
         "discount": 10
     }
 ]
