@@ -1,0 +1,3 @@
+[submodule "buyer"]
+	path = buyer
+	url = https://github.com/Unshelf-SoftEng/Unshelf__Buyer
