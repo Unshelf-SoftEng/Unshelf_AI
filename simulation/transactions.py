@@ -18,10 +18,16 @@ def process_completed_orders():
 
     for order_doc in completed_orders:
         order_data = order_doc.to_dict()
-        order_id = order_doc.id
+        order_id = order_doc.get('orderId')
         total_price = order_data.get('totalPrice', 0)
         seller_id = order_data.get('sellerId')
         order_date = order_data.get('completedAt')
+
+        if order_date is None:
+            print('Order Id' + order_id)
+            print('Order Date not found')
+            return
+
 
         # Calculate fees and earnings
         transaction_fee = round(total_price * TRANSACTION_FEE_PERCENTAGE, 2)
@@ -34,7 +40,8 @@ def process_completed_orders():
             'transactionFee': transaction_fee,
             'sellerEarnings': seller_earnings,
             'sellerId': seller_id,
-            'date': order_date
+            'date': order_date,
+            'type': "sale"
         }
 
         # Store the transaction in Firestore

@@ -66,11 +66,18 @@ order_count_per_day = defaultdict(int)
 
 # Generate 100 orders
 for i in range(100):
-    # Alternate between September and October
+   # Alternate between September and October
     if i < 50:
         order_date = start_date + timedelta(days=random.randint(0, 30))  # Random date in September
     else:
         order_date = start_date.replace(month=10) + timedelta(days=random.randint(0, 31))  # Random date in October
+
+    # Add random hour (10 AM to 9 PM)
+    random_hour = random.randint(10, 21)  # Random hour from 10 (10 AM) to 21 (9 PM)
+    random_minute = random.randint(0, 59)  # Random minute
+
+    # Set the hour and minute for the order date
+    order_date = order_date.replace(hour=random_hour, minute=random_minute) 
     
     # Increment the order count for that specific day
     order_count_per_day[order_date.date()] += 1
